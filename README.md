@@ -1,7 +1,7 @@
 # Python Basics: For References
 
 # Table of Contents
-1. [https://github.com/Athena-Gerardo/PythonPortfolio/blob/main/README.md#variables](# Variables)
+1. [https://github.com/Athena-Gerardo/PythonPortfolio/blob/main/README.md#variables](Variables)
 
 # Variables
 
