@@ -4,7 +4,7 @@
 1. [Variables](https://github.com/Athena-Gerardo/PythonPortfolio/blob/main/README.md#variables)
 2. [Data Types](https://github.com/Athena-Gerardo/PythonPortfolio/blob/main/README.md#data-types)
 
-# Variables
+## Variables
 
 Python will reference the most recent assignment for a variable, unless the variables are different cases (python is case-sensitive)
 ```python
@@ -78,4 +78,32 @@ myfunc() #this will result with the local variable, unless you use global in the
 print("Python is " + x) #this will result with the global variable
 ```
 
-# Data Types
+## Data Types
+
+Python has the following data types built-in by default, in these categories:
+* Text Type:	str
+* Numeric Types:	int, float, complex
+* Sequence Types:	list, tuple, range
+* Mapping Type:	dict
+* Set Types:	set, frozenset
+* Boolean Type:	bool
+* Binary Types:	bytes, bytearray, memoryview
+* None Type:	NoneType
+** Note: use print(type()) to find out the variable's data type
+
+Python will automatically assign a data type when a variable is declared:
+* x = "Hello World":	str	
+* x = 20:	int	
+* x = 20.5:	float	
+* x = 1j:	complex	
+* x = ["apple", "banana", "cherry"]:	list	
+* x = ("apple", "banana", "cherry"):	tuple	
+* x = range(6):	range	
+* x = {"name" : "John", "age" : 36}:	dict	
+* x = {"apple", "banana", "cherry"}:	set	
+* x = frozenset({"apple", "banana", "cherry"}):	frozenset	
+* x = True:	bool	
+* x = b"Hello":	bytes	
+* x = bytearray(5):	bytearray	
+* x = memoryview(bytes(5)):	memoryview	
+* x = None:	NoneType
