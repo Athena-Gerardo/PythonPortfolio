@@ -2,6 +2,7 @@
 
 # Table of Contents
 1. [Variables](https://github.com/Athena-Gerardo/PythonPortfolio/blob/main/README.md#variables)
+2. [Data Types](https://github.com/Athena-Gerardo/PythonPortfolio/blob/main/README.md#data-types)
 
 # Variables
 
