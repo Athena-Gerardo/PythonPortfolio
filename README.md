@@ -12,10 +12,11 @@ For references
 ## Variables
 
 # Python will reference the most recent assignment for a variable, unless the variables are different cases (python is case-sensitive)
+```python
 x = 4
 x = "Sally"
 print(x)
-
+```
 # Casting: can use multiple types, and recall the type using type()
 x = str(3) # x will be '3'
 y = int(3) # y will be 3
