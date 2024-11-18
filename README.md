@@ -1,13 +1,7 @@
-/*
-
-Python Basics
-
-For references
-
-*/
+# Python Basics: For References
 
 # Table of Contents
-
+1. 
 
 # Variables
 
