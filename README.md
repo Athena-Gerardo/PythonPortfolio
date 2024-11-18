@@ -12,13 +12,6 @@ x = 4
 x = "Sally"
 print(x)
 ```
-Casting: can use multiple types, and recall the type using type()
-```python
-x = str(3) # x will be '3'
-y = int(3) # y will be 3
-z = float(3) #z will be 3.0
-print(type(x))
-```
 Legal variable names in Python:
 ```python
 myvar = "John"
@@ -107,3 +100,11 @@ Python will automatically assign a data type when a variable is declared:
 * x = bytearray(5):	bytearray	
 * x = memoryview(bytes(5)):	memoryview	
 * x = None:	NoneType
+
+Casting: can use multiple types, and recall the type using type(). When casting, or setting the specific data type, use the abbreviation associated with that data type. (Refer to the list above for all abbreviations.)
+```python
+x = str(3) # x will be '3'
+y = int(3) # y will be 3
+z = float(3) #z will be 3.0
+print(type(x))
+```
