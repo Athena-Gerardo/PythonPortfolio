@@ -108,3 +108,56 @@ y = int(3) # y will be 3
 z = float(3) #z will be 3.0
 print(type(x))
 ```
+
+
+## Strings
+
+Slicing, index starts at 0, does not include last number of index (if specified):
+```python
+b = "Hello, World!"
+print(b[2:5]) # or print(b[2:]) or print(b[:5])
+```
+
+Modify, with upper, lower, or strip:
+```python
+a = "Hello, World!"
+print(a.upper())
+print(a.lower())
+print(a.strip()) # removes whitespace (space before and/or after the acutal text)
+```
+
+Concatenate:
+```python
+a = "Hello"
+b = "World"
+c = a + b # add "+ " " +" if a space is needed inbetween words
+print(c)
+```
+
+Format/F-Strings, used to combine str and num into one:
+```python
+age = 36
+txt = f"My name is John, I am {age}"
+print(txt)
+```
+Placeholders, can contain variables, operations, functions, and modifiers to format the value:
+```python
+txt = f"The price is {20 * 59} dollars"
+print(txt)
+```
+Modifiers, use ":" after the variable's name within the placeholder:
+```python
+price = 59
+txt = f"The price is {price:.2f} dollars" # .2f is the fixed decimal place that is desired to display
+print(txt)
+```
+
+Escape
+```python
+
+```
+
+Methods:
+```python
+
+```
