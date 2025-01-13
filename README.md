@@ -162,4 +162,6 @@ txt = "We are the so-called \"Vikings\" from the north."
 Methods:
 Python has a set of built-in methods that you can use on strings.
 Note: All string methods return new values. They do not change the original string.
-Full list: [url](https://www.w3schools.com/python/python_strings_methods.asp)
+Full list: [Python - String Methods](https://www.w3schools.com/python/python_strings_methods.asp)
+
+
