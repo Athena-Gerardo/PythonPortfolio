@@ -1,4 +1,4 @@
-# Python Basics: For References
+# Python Basics: For Reference
 
 # Table of Contents
 1. [Variables](https://github.com/Athena-Gerardo/PythonPortfolio/blob/main/README.md#variables)
@@ -154,11 +154,12 @@ print(txt)
 ```
 
 Escape
+To insert characters that are illegal in a string, use an escape character. An escape character is a backslash \ followed by the character you want to insert.
 ```python
-
+txt = "We are the so-called \"Vikings\" from the north."
 ```
 
 Methods:
-```python
-
-```
+Python has a set of built-in methods that you can use on strings.
+Note: All string methods return new values. They do not change the original string.
+Full list: [url](https://www.w3schools.com/python/python_strings_methods.asp)
